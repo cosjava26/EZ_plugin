@@ -50,6 +50,10 @@ $(document).ready(function() {
     $(this).parent('.no_area_form2').hide();
     $('.no_area').css('display', 'inline-block');
   });
+  $('.EZcpr_ft').click(function(event) {
+    event.preventDefault();
+    $('.rec_card_popup').css('display', 'inline-block');
+  });
   $('ul.EZcpr_ct li .rec_card').click(function(event) {
     event.preventDefault();
     $('.rec_card_popup').css('display', 'inline-block');
