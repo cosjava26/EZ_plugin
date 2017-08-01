@@ -1,0 +1,20 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+    %meta{:content => "zh-tw", "http-equiv" => "content-language"}/
+    %link{:rel => "stylesheet", :href => "./style/css/plugin.css"}/
+    %link{:rel => "stylesheet", :href => "./style/css/marka.min.css"}/
+    %script{:src => "http://code.jquery.com/jquery-1.8.3.min.js"}
+    %script{:src => "./style/js/jquery.tinyscrollbar.js"}
+    %script{:src => "./style/js/plugin.js"}
+
+    //dropdown transformable icons js
+    %script{:src => "./style/js/marka.min.js"}
+    :css
+      body {margin: 40px;}
+      .EZcpr_wrap {margin-left: auto; margin-right: auto;}
+  %body
+    = render :partial => './pages/cpr/cpr_2017'
+    = render :partial => './pages/cpr/cpr_2017_s2'
+    = render :partial => './pages/cpr/cpr_2017_s3'

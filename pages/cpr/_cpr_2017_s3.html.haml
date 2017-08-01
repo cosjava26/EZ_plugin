@@ -1,0 +1,87 @@
+.cpr_w{:style => "margin: 300px 0 0 0!important;"}
+  .cpr
+    .cpr_hd
+      %a.cpr_t{:href => "#", :target => "_blank"}        
+        %img._logo{:src => "./images/logo.png", :alt => ""}/
+      %span.cpr_ud 2017.07.03 更新
+    %ul.cpr_ct
+      %li
+        %a.rec_card{:href => ""}
+          %i.icon.icon-credit-card
+        .cpr_i._crt
+          .cpr_s myfone購物
+          .cpr_p $16,900
+          .cpr_g.tag_c 
+            %span.icon.icon-tag.tag_word 最便宜
+      %li
+        %a.cpr_i.tooltip{:href => "http://www.myfone.com.tw/buy/index.php?action=product_detail&prod_no=P0000200819844&prod_sort_uid=13827&mkwid=8ifW5Qaz", :target => "_blank", :title => "myfone購物"}
+          .cpr_s 愛買線上購物
+          .cpr_p $17,900
+          %span.tooltip_img
+            %i.pd_img
+              %img{:src => "./images/pd1.jpg"}
+            %h3 【TATUNG 大同】《1+1超值組》14吋電暖器(TAH-14TA)+10吋電暖器(TAH-10L)
+      %li
+        %a.cpr_i.tooltip{:href => "http://www.savesafe.com.tw/Products/ProductView.aspx?t_s_id=&s_id=0b9f30ff022a0f5112291092ada5b53d&rd=1", :target => "_blank", :title => "大買家網路量販店"}
+          .cpr_s 大買家網路量販店
+          .cpr_p $18,500
+          %span.tooltip_img
+            %i.pd_img
+              %img{:src => "./images/pd1.jpg"}
+            %h3 【TATUNG 大同】《1+1超值組》14吋電暖器(TAH-14TA)+10吋電暖器(TAH-10L)
+    .cpr_ft
+      全新功能，點擊
+      %i.icon.icon-credit-card
+      馬上看信用卡回饋！
+  .cpr_btn
+    .cpr_love
+      / %i.icon.icon-heart-line
+      / 比價收藏
+      %i.icon.icon-heart-filled
+      已收藏
+    .cpr_notice
+      /%i.icon.icon-bell-line
+      %i.icon.icon-bell-filled
+      降價提醒
+      .notice_dropdown
+        %span.notice_word
+          %i.icon.icon-info
+          橘點為必填欄位
+        %ul.dropdown_setting
+          %li
+            %span.current_price 目前價格
+            %span.current_price_num 16,900
+          %li
+            %span.o_spot
+            %span.expect_price 期望價格
+            %span.input_price
+              %input.expect_price_num{:placeholder => "", :type => "text",:value =>"16,899"}/
+            %button.btn_discount -
+            %span.discount_area 自訂
+            %button.btn_discount._disabled +
+            %span.note_word 請輸入期望價格
+            /%span.error_word 設定價格請低於目前價格
+          %li
+            %span.o_spot
+            %span.notice_way 提醒方式
+            .email_way._show
+              %label.control.control_checkbox
+                %span.email_title email
+                %input{:type => "checkbox"}/
+                %span.control_indicator
+              %input.input_email{:placeholder => "請輸入您的email", :type => "text"}/
+              /%span.email_error_word email 格式不正確
+            .email_way.phone_way
+              %label.control.control_checkbox
+                %span.email_title 簡訊
+                %input{:type => "checkbox"}/
+                %span.control_indicator
+              %input.input_phone{:placeholder => "請輸入您的手機號碼", :type => "text"}/
+              /%span.email_error_word 手機格式不正確
+          %li
+            %button.btn_submit 加入
+    %a.cpr_detail{:href => "",:title => "詳細比價"}
+      %i.icon.icon-login
+      詳細比價
+  .cpr_desc 
+    %span.desc_text 貼心提醒：價格資訊僅供參考，完整優惠資訊以各平台刊登為主。

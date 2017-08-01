@@ -1,19 +1,3 @@
-$(function(){
-  $('.EZsugt_i_r').mouseover(function(){
-    $(this).siblings('.EZsugt_i_d').css('display','block');
-  });
-  $('.EZsugt_i_r').mouseout(function(){
-    $(this).siblings('.EZsugt_i_d').css('display','');
-  });
-
-  $('.EZcpr_coupon_link').hover(function(){
-    $(this).parent().prev().toggleClass('_focus');
-  });
-
-  $('.EZcpr_tx').tinyscrollbar();
-
-})
-
 $(document).ready(function() {
   $('.q_area .btn_yes').click(function(event) {
     event.preventDefault();
@@ -50,11 +34,11 @@ $(document).ready(function() {
     $(this).parent('.no_area_form2').hide();
     $('.no_area').css('display', 'inline-block');
   });
-  $('.EZcpr_ft').click(function(event) {
+  $('.cpr_ft').click(function(event) {
     event.preventDefault();
     $('.rec_card_popup').css('display', 'inline-block');
   });
-  $('ul.EZcpr_ct li .rec_card').click(function(event) {
+  $('ul.cpr_ct li .rec_card').click(function(event) {
     event.preventDefault();
     $('.rec_card_popup').css('display', 'inline-block');
   });
@@ -63,11 +47,11 @@ $(document).ready(function() {
     $('.rec_card_popup').css('display', 'none');
   });
 
-  $('.EZcpr_btn .EZcpr_love').click(function(event) {
+  $('.cpr_btn .cpr_love').click(function(event) {
     event.preventDefault();
     $('.love_popup').css('display', 'inline-block');
   });
-  $('.EZcpr_btn .EZcpr_notice .btn_submit').click(function(event) {
+  $('.cpr_btn .cpr_notice .btn_submit').click(function(event) {
     event.preventDefault();
     $('.notice_popup').css('display', 'inline-block');
   });
